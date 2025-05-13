@@ -8,7 +8,7 @@ export default function Footer() {
       <div className="mx-auto max-w-7xl px-4 py-12 sm:px-6 lg:px-8">
         <div className="grid grid-cols-1 gap-8 md:grid-cols-3">
           <div>
-            <h2 className="text-2xl font-bold">BeautyShop</h2>
+            <h2 className="text-2xl font-bold">Dinanela Beauty</h2>
             <p className="mt-4 text-gray-400">
               Productos de maquillaje de alta calidad que realzan tu belleza natural.
             </p>
@@ -46,12 +46,14 @@ export default function Footer() {
             <ul className="mt-4 space-y-2">
               <li className="text-gray-400">Av. Principal 123, Ciudad, País</li>
               <li className="text-gray-400">+1 234 567 890</li>
-              <li className="text-gray-400">info@tuempresa.com</li>
+              <li className="text-gray-400">info@dinanela.beauty</li>
             </ul>
           </div>
         </div>
         <div className="mt-12 border-t border-gray-800 pt-8 text-center">
-          <p className="text-gray-400">&copy; {new Date().getFullYear()} BeautyShop. Todos los derechos reservados.</p>
+          <p className="text-gray-400">
+            &copy; {new Date().getFullYear()} Dinanela Beauty. Todos los derechos reservados.
+          </p>
         </div>
       </div>
     </footer>

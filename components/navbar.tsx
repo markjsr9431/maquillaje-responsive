@@ -25,7 +25,7 @@ export default function Navbar() {
         <div className="flex h-16 items-center justify-between">
           <div className="flex items-center">
             <Link href="/" className="text-2xl font-bold text-pink-600">
-              BeautyShop
+              Dinanela Beauty
             </Link>
           </div>
           <div className="hidden md:block">

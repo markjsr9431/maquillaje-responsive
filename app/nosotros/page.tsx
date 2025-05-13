@@ -13,7 +13,7 @@ export default function AboutPage() {
             <div className="text-center">
               <h1 className="text-4xl font-bold tracking-tight text-gray-900 sm:text-5xl">Sobre Nosotros</h1>
               <p className="mx-auto mt-4 max-w-3xl text-xl text-gray-500">
-                Conoce más sobre nuestra empresa y nuestra misión de realzar la belleza natural.
+                Conoce más sobre Dinanela Beauty y nuestra misión de realzar la belleza natural.
               </p>
             </div>
 
@@ -30,7 +30,7 @@ export default function AboutPage() {
               <div className="flex flex-col justify-center">
                 <h2 className="text-3xl font-bold tracking-tight text-gray-900">Nuestra Historia</h2>
                 <p className="mt-4 text-lg text-gray-500">
-                  Fundada en 2015, nuestra empresa nació con la visión de crear productos de maquillaje que no solo
+                  Fundada en 2015, Dinanela Beauty nació con la visión de crear productos de maquillaje que no solo
                   realzaran la belleza exterior, sino que también cuidaran la piel. Comenzamos como una pequeña tienda
                   local y hemos crecido hasta convertirnos en una marca reconocida a nivel nacional.
                 </p>

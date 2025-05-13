@@ -19,6 +19,38 @@ export default function Home() {
     },
   ]
 
+  // Productos destacados con nombres y precios actualizados
+  const featuredProducts = [
+    {
+      id: 1,
+      name: "Base de maquillaje HD",
+      price: 99.0,
+      category: "Rostro",
+      image: "/images/makeup-product-1.png",
+    },
+    {
+      id: 2,
+      name: "Paleta de sombras Sunset",
+      price: 129.0,
+      category: "Ojos",
+      image: "/images/makeup-product-2.png",
+    },
+    {
+      id: 3,
+      name: "Labial mate Velvet",
+      price: 79.0,
+      category: "Labios",
+      image: "/images/makeup-product-3.png",
+    },
+    {
+      id: 4,
+      name: "Set de brochas Premium",
+      price: 149.0,
+      category: "Accesorios",
+      image: "/images/makeup-product-4.png",
+    },
+  ]
+
   return (
     <div className="flex min-h-screen flex-col">
       <Navbar />
@@ -61,12 +93,7 @@ export default function Home() {
             </div>
 
             <div className="mt-12 grid grid-cols-1 gap-y-10 gap-x-6 sm:grid-cols-2 lg:grid-cols-4 xl:gap-x-8">
-              {[
-                { id: 1, name: "Base de maquillaje", price: 99.0, image: "/images/makeup-product-1.png" },
-                { id: 2, name: "Paleta de sombras", price: 129.0, image: "/images/makeup-product-2.png" },
-                { id: 3, name: "Labial mate", price: 79.0, image: "/images/makeup-product-3.png" },
-                { id: 4, name: "Set de brochas", price: 149.0, image: "/images/makeup-product-4.png" },
-              ].map((product) => (
+              {featuredProducts.map((product) => (
                 <div key={product.id} className="group relative">
                   <div className="aspect-square w-full overflow-hidden rounded-md bg-gray-200 group-hover:opacity-75">
                     <Image
@@ -85,7 +112,7 @@ export default function Home() {
                           {product.name}
                         </Link>
                       </h3>
-                      <p className="mt-1 text-sm text-gray-500">Categoría</p>
+                      <p className="mt-1 text-sm text-gray-500">{product.category}</p>
                     </div>
                     <p className="text-sm font-medium text-gray-900">${product.price.toFixed(2)}</p>
                   </div>
