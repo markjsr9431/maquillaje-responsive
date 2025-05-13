@@ -32,4 +32,3 @@ function ProductoImagen({
 }
 
 export default ProductoImagen
-

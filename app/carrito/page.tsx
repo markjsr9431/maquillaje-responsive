@@ -167,4 +167,3 @@ function CartItems() {
     </div>
   )
 }
-
